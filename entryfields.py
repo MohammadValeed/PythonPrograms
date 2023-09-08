@@ -1,0 +1,12 @@
+from tkinter import*
+window=Tk()
+window.geometry("300x300")
+L1=Label(window,text="first name")
+L2=Label(window,text="last name")
+e1=Entry(window)
+e2=Entry(window)
+L1.grid(row=0,column=0)
+L2.grid(row=1,column=0)
+e1.grid(row=0,column=1)
+e2.grid(row=1,column=1)
+window.mainloop()

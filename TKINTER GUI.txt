@@ -1,0 +1,7 @@
+from tkinter import*
+window = Tk()
+window.title("GUI window")
+window.geometry('200*150+400+300')
+l1=tkinter.Label(window,text='hello world')
+l1.pack()
+window.mainloop()
